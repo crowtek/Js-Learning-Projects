@@ -5,9 +5,10 @@
 // toggle - toggles class
 
 const toggleBtn = document.querySelector(".nav-toggle");
-const links = document.querySelector(".link");
+const links = document.querySelector(".links");
 
 toggleBtn.addEventListener("click",  () => {
-    links.classList.add(".show-links")
+links.classList.toggle("show-links")
+
 });
 
