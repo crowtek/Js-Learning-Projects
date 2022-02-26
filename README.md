@@ -18,6 +18,24 @@
 
 
 <!-- First Project -->
+## Color-Flipper Project
+
+
+
+
+https://user-images.githubusercontent.com/57542570/155860300-f28ca666-7fd8-4803-b2e0-296451ae7f2c.mp4
+
+
+
+In this Project I worked with Array functions to generate Random hex Values.<br><br>
+ <br><br>
+
+![Screenshot (102)](https://user-images.githubusercontent.com/57542570/155860302-2ff41cb7-415a-4c29-aa69-7e56475e5bc1.png)
+
+
+<br><br><br><br><br><br><br><br>
+
+
 ## Navbar Project
 
 
