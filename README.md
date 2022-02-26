@@ -24,8 +24,8 @@
 https://user-images.githubusercontent.com/57542570/155857538-f8b7b04e-2eef-4301-bf43-7ceb74f8fbb5.mp4
 
 
-I have used Gulp and a Sass Boilerplate for this Project. <br><br>
-I exchanged @import for @use and @forward and I also <br>
+In this project I created a nice animated navbar with the help of JavaScript and Css. <br><br>
+I used the JS ES6 Arrow Function and used the shortest possible writing style <br> for the toggle function. <br>
 went more into Sass featuresand replaced media querys with Sass variables. <br><br>
 
 ![navbar](https://user-images.githubusercontent.com/57542570/155857540-9b5d99ed-6ddd-4dff-9222-c21fc1064760.png)
