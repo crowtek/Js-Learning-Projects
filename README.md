@@ -1,4 +1,4 @@
-# Js-Learning-Projects
+# JavaScript-Learning-Projects
 
 ## Here you can find some of my learning Projects for JavaScript and the documentation about them. 
 
