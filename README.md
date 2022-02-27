@@ -29,8 +29,23 @@ https://user-images.githubusercontent.com/57542570/155860300-f28ca666-7fd8-4803-
 
 In this Project I worked with Array functions to generate Random hex Values.<br><br>
  <br><br>
+ 
+ ```JavaScript
+const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
-![Screenshot (102)](https://user-images.githubusercontent.com/57542570/155860302-2ff41cb7-415a-4c29-aa69-7e56475e5bc1.png)
+const btn = document.getElementById("btn");
+const color = document.querySelector(".color");
+
+btn.addEventListener("click", () => {
+    let hexColor = "#";
+    for(let i = 0; i < 6; i++){
+        hexColor += hex[Math.floor(Math.random() * hex.length)]
+    }
+    document.body.style.backgroundColor = hexColor;
+    color.innerHTML = hexColor
+})
+```
+
 
 
 <br><br><br><br><br><br><br><br>
@@ -48,8 +63,36 @@ went more into Sass featuresand replaced media querys with Sass variables. <br><
 
 ![navbar](https://user-images.githubusercontent.com/57542570/155857540-9b5d99ed-6ddd-4dff-9222-c21fc1064760.png)
 
+<br><br><br><br><br><br><br><br>
+
+## Sidebar Project
 
 
+
+
+
+In this project I created a nice animated navbar with the help of JavaScript and Css. <br><br>
+I used the JS ES6 Arrow Function and used the shortest possible writing style <br> for the toggle function. <br>
+went more into Sass featuresand replaced media querys with Sass variables. <br><br>
+
+
+
+```JavaScript
+const toggelBtn = document.querySelector(".sidebar-toggle");
+const closeBtn = document.querySelector(".close-btn")
+const sidebar = document.querySelector(".sidebar");
+
+toggelBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("show-sidebar");
+});
+
+closeBtn.addEventListener("click", () => {
+    sidebar.classList.remove("show-sidebar")
+})
+```
+
+![Screenshot (106)](https://user-images.githubusercontent.com/57542570/155888843-a2f61081-0fd6-429d-98c1-324dd76979ae.png)
+![Screenshot (107)](https://user-images.githubusercontent.com/57542570/155888845-d2aea4eb-664b-4cff-b11f-ef45373c7c3e.png)
 
 <!-- CONTACT -->
 ## Contact
